@@ -1,0 +1,4 @@
+Comparison,Images per group,FID,KID
+Real Normal vs Real Normal,607,24.18 ± 0.36,-0.00004 ± 0.00029
+Real Normal vs Synthetic Normal,607,63.82 ± 0.74,0.06265 ± 0.00234
+

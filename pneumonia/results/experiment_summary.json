@@ -1,0 +1,51 @@
+{
+    "dataset": "PneumoniaMNIST",
+    "classifier": "ResNet18 pretrained",
+    "generator": "MedSymmFlow RGB_28 checkpoint",
+    "generation_image_size": 32,
+    "generated_images_total": 200,
+    "generated_normal": 100,
+    "generated_pneumonia": 100,
+    "filtered_images_total": 176,
+    "filtered_normal": 77,
+    "filtered_pneumonia": 99,
+    "synthetic_class_fidelity": {
+        "overall": 0.905,
+        "normal": 0.81,
+        "pneumonia": 1.0
+    },
+    "baseline": {
+        "accuracy": 0.8621794871794872,
+        "balanced_accuracy": 0.8188034188034188,
+        "f1": 0.9,
+        "macro_f1": 0.8391752577319588,
+        "auc": 0.9563773833004602,
+        "confusion_matrix": [
+            [
+                151,
+                83
+            ],
+            [
+                3,
+                387
+            ]
+        ]
+    },
+    "real_plus_synthetic": {
+        "accuracy": 0.9182692307692307,
+        "balanced_accuracy": 0.8944444444444445,
+        "f1": 0.9380315917375456,
+        "macro_f1": 0.9090157958687728,
+        "auc": 0.9694499232960772,
+        "confusion_matrix": [
+            [
+                187,
+                47
+            ],
+            [
+                4,
+                386
+            ]
+        ]
+    }
+}

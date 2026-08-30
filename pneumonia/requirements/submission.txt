@@ -1,0 +1,23 @@
+--extra-index-url https://download.pytorch.org/whl/cu126
+
+accelerate
+datasets
+diffusers
+jupyter
+loguru
+lpips
+matplotlib
+medmnist
+numpy==1.26.4
+opencv-python
+pandas
+Pillow
+scikit-learn
+seaborn
+torch
+torch-fidelity
+torchdiffeq
+torchmetrics
+torchvision
+tqdm
+zuko

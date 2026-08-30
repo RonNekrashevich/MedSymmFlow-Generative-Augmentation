@@ -1,0 +1,3 @@
+comparison,number_of_sampling_seeds,images_per_group,fid_mean,fid_std_across_seeds,kid_mean,kid_std_across_seeds
+Real Normal vs Synthetic Normal,5,1214,55.3294792175293,0.6108695527149647,0.0632123202085495,0.0006516238869912676
+

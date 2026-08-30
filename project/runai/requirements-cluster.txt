@@ -1,0 +1,16 @@
+# Only what the NGC PyTorch base image lacks. torch/torchvision come from the base --
+# do not add them here or pip will pull a second, conflicting CUDA build.
+#
+# Versions are intentionally unpinned so pip resolves against whatever torch the base
+# image ships. To freeze a reproducible set for the write-up, run inside the built image:
+#     pip freeze > project/runai/requirements-cluster.lock.txt
+medmnist
+torchdiffeq
+diffusers
+accelerate
+zuko
+scikit-learn
+scipy
+loguru
+python-dotenv
+datasets
